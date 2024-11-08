@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>S&P 500 Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <title>Document</title>
+</head>
+<body>
+    <h2>Adjustable Date Range for S&P 500 Chart</h2>
+    <label for="start-date">Start Date:</label>
+    <input type="date" id="start-date">
+    <label for="end-date">End Date:</label>
+    <input type="date" id="end-date">
+    <button id="submit-date">Submit</button>
+    <br><br>
+
+    <canvas id="sp500Chart" width="400" height="200"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
